@@ -160,19 +160,6 @@ function FoodSuggestions() {
     </div>
   );
 
-  function SupportUs() {
-    return (
-      <div className="App-header">
-        <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>💖 Support Our Project</h2>
-        <p style={{ fontSize: '1.2rem', maxWidth: '600px', marginBottom: '2rem' }}>
-          Donations coming soon 💸
-        </p>
-        <Link to="/">
-          <button style={{ marginTop: '3rem', fontSize: '1.2rem', padding: '1rem 2rem' }}>⬅️ Back to Home</button>
-        </Link>
-      </div>
-    );
-  }
 }
 
 export default App;
